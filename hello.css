@@ -1,0 +1,433 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: robotos,sans-serif;
+}
+
+
+
+.navbar {
+  background-color: blac;
+}
+
+.navbar-toggler {
+
+}
+
+.navbar-nav li
+{
+  list-style: none;
+  padding: 15px 25px;
+  font-size: 20px;
+}
+.navbar-nav li a
+{
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.navbar-nav li a:hover {
+  color: #096F95;
+}
+
+
+.navbar-nav li {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+   position: relative;
+  overflow: hidden;
+}
+
+
+
+
+.navbar-nav li :before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+
+  background: #22a6b3;
+  height:2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, ;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+
+
+
+
+
+.navbar-nav li :hover:before, .navbar-nav li :focus:before, .navbar-nav li :active:before {
+  left: 0;
+  right: 0;
+
+
+}
+
+
+
+
+
+
+
+
+#download li{
+  list-style: none;
+  padding-top: 30px;
+}
+
+#download li a{
+
+}
+
+
+#download li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background: linear-gradient(45deg, #22a6b3, #30336b);
+  border-radius: 90px;
+  padding: 18px;
+  transition: 0.4s;
+
+}
+
+#download li a:hover {
+  color: white;
+  background: linear-gradient(45deg, #30336b, #22a6b3);
+}
+
+
+
+
+
+#skillsline {
+  width: 300px;
+  height: 5px;
+  background-color: #26C6DA;
+  opacity: 0.9;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ .galaw {
+  overflow: hidden;
+  animation: type 5s steps(44)
+  infinite;
+  white-space: nowrap;
+  border-right: 1px solid black;
+}
+
+@keyframes type {
+  0%
+{
+  width: 0ch;
+}
+100%
+{
+  width: 30ch;
+}
+}
+
+
+
+#text h1{
+	font-size: 60px;
+	padding-top: 120px;
+	color: white;
+  padding-bottom: 50px;
+}
+.text p{
+	color: #808080;
+}
+.lukeimg {
+	width: 0px;
+	margin-top: 90px;
+
+
+}
+#myname {
+	color: white;
+	font-size: 65px;
+	margin-top: 30px
+}
+#lukluk {
+	width: 320px;
+	margin-top: 90px;
+	padding-bottom: 40px;
+}
+.socialmediaicon
+{
+  padding-bottom: 60px;
+}
+.socialmediaicon li
+{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  transition-duration: 1s;
+}
+.socialmediaicon li img
+{
+  width: 40px;
+}
+.socialmediaicon li:hover
+{
+  transform: rotate(360deg);
+  background: linear-gradient(45deg, #22a6b3, #30336b);  
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+#aboutmetitle {
+	margin-top: 90px;
+}
+
+
+
+
+
+
+
+#picc {
+  width: 400px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.vid {
+  margin-top: px;
+}
+
+
+
+.likod img{
+  width: 50px;
+}
+
+
+.likod li{
+  list-style: none;
+  display: inline-block;
+  background: linear-gradient(45deg, #22a6b3, #aae6e6);
+  border: solid rgb(15, 48, 63);  
+  border-radius: 100px;
+  padding: 25px;
+
+}
+
+.likod {
+  margin: 150px 20px;
+}
+
+.likod li img{
+  transition-duration: 3s;
+}
+
+.likod li img:hover{
+  transform:rotate(360deg);
+}
+
+{
+  padding: 70px;
+}
+
+#myhobbytitle{
+  padding-bottom: 50px;
+
+}
+
+#hobbyline
+{
+  width: 300px;
+  height: 5px;
+  background-color: #26C6DA;
+  opacity: 0.9;
+}
+
+
+.myhobbyname h2
+{
+	font-size: 30px;
+	padding-bottom: 150px;
+	padding-top: 50px;
+} 
+
+.likod h2{
+  font-family: 'Gelasio', serif;
+}
+
+/*
+
+.myimg img
+{
+	width: 93px;
+  margin-top: 50px;
+  transition-duration: 3s;
+}
+.myimg img:hover{
+  transform: rotate(360deg);
+}
+
+
+.myhobbyname h2
+{
+	font-size: 30px;
+	padding-bottom: 150px;
+	padding-top: 50px;
+} 
+
+
+.myhobbyname img {
+  background: linear-gradient(45deg, #22a6b3, #aae6e6);  
+  padding: 10px;
+  border: solid black;
+  border-radius: 100px;
+  opacity: ;
+} */
+
+
+
+
+#interesttitle
+{
+  padding-top: 120px;
+  color: white;
+}
+#interestline
+{
+  width: 300px;
+  height: 5px;
+  background-color: #26C6DA;
+  opacity: 0.9;
+
+}
+.interestimg img
+{
+  width: 200px;
+  margin-top: 80px;
+}
+.interestimg
+{
+  padding-bottom: 120px;
+}
+.interestname h3
+{
+  padding-top: 15px;
+
+}
+.interesttext p
+{
+  padding-top: 15px;
+  font-family: 'Gupter', serif;
+
+}
+.interesttext h3{
+  font-family: 'Bree Serif', serif;
+}
+
+
+
+#interest img{
+  height: 200px;
+  width: 300px;
+}
+#interest img {
+  cursor: pointer;
+  width: 300px;
+  height: 250px;
+}
+#interest {
+  list-style: none;
+  padding: 30px 0;
+}
+
+#interest li{
+  transition: 0.3s;
+}
+
+#interest li:hover
+{
+  transform: scale(1.1);
+}
+#interest {
+  padding-top: 50px
+}
+
+
+.backgroundinterest {
+  background-color:;
+}
+
+
+#trendtitle {
+   padding-: 120px;
+  color: white;
+}
+
+
+
+
+
+
+
+.trendline {
+  width: 220px;
+  height: 5px;
+  background-color: crimson;
+  margin: 0;
+  opacity: 0.9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*FOOTER*/
+
+.footerbackground
+{
+  width: 100%;
+  height: 100px;
+  color: darkgray;
+  padding-top: 20px;
+}
+
+  /*
